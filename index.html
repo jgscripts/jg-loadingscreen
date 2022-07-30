@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Britannia Roleplay</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="brp-background">
+    <img src="assets/img/cursor.png" class="brp-cursor" />
+    <img src="assets/img/volume-x.svg" class="brp-audio-icon" onclick="muteAudio()" />
+
+    <audio class="brp-music" loop autoplay>
+      <source src="assets/audio/rule-britannia.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="brp-slideshow">
+      <img src="assets/img/ss-image-1.jpg" />
+      <img src="assets/img/ss-image-2.jpg" />
+      <img src="assets/img/ss-image-3.jpg" />
+      <img src="assets/img/ss-image-4.jpg" />
+      <img src="assets/img/ss-image-5.jpg" />
+    </div>
+
+    <div class="brp-overlay">
+      <img src="assets/img/brp-logo.png" alt="Britannia Roleplay" class="brp-logo" />
+
+      <h1 class="brp-header">Britannia Roleplay</h1>
+
+      <div class="brp-loading">
+        <div class="loading-bar">
+          <div class="loading-bar-inner"></div>
+        </div>
+        <div class="loading-amount">0%</div>
+      </div>
+
+      <p class="brp-desc">
+        BRP was created after years of the founder(s) spending their time playing servers that were
+        Unrealistic, poorly run, abusive admins, unfair punishments and simply BORING amongst many
+        other things. We decided to join together and make the perfect server for all where everyone
+        is striving for good quality roleplay at all times. We achieve this by having a friendly and
+        supporting community, A helpful and unbiased staff team and constant updates to keep the
+        server fully packed with the latest and most interesting things for all.
+      </p>
+
+      <div class="brp-discord">
+        <img src="assets/img/discord.png" alt="Discord" /><span>Discord</span>
+        <a href="https://discord.gg/KGQF6f3GsA">discord.gg/KGQF6f3GsA</a>
+
+        <div class="brp-tooltip">
+          <img
+            src="assets/img/copy.svg"
+            alt="Copy link"
+            class="copy-discord-link"
+            onClick="copyDiscordLink()"
+          />
+          <span class="brp-tooltip-text">Copy discord Link</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
